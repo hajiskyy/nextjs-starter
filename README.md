@@ -38,7 +38,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## OG Note
-Your code editor would probably lint the unknown `@tailwind` rule. A hack for that if you're using vscode is to just turn off the warnings for unkown-at-rules for scss in the setting. or just at this to your `settings.json`:
+Your code editor would probably lint the unknown `@tailwind` rule. A hack for that if you're using vscode is to just turn off the warnings for unkown-at-rules for scss in the settings. or just add this to your `settings.json`:
 
 `  "scss.lint.unknownAtRules": "ignore"`
 
