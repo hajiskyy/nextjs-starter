@@ -1,3 +1,7 @@
+## Next.js Typescript, Sass, Tailwindcss starter
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -32,3 +36,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## OG Note
+Your code editor would probably lint the unknown `@tailwind` rule. A hack for that if you're using vscode is to just turn off the warnings for unkown-at-rules for scss in the setting. or just at this to your `settings.json`:
+
+`  "scss.lint.unknownAtRules": "ignore"`
+
+Happy coding
